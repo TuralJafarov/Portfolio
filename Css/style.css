@@ -8,6 +8,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
+
+/* Header code  start*/
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -52,3 +55,114 @@ nav a:hover{
   }
 
 }
+
+/* Header code end */
+
+
+
+
+/* introduction  code start*/
+
+
+ .introduction{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 112px;
+  padding-right: 112px;
+  flex-wrap: wrap;
+ }
+
+
+.introduction .left-side{
+  padding-top: 117px;
+  min-width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+ .introduction h1{
+  font-size: 72px;
+  font-weight: 700;
+ }
+
+ .introduction .left-side h1 span{
+  color:#ff8a56 ;
+ }
+
+ .introduction .left-side p{
+  color: #666;
+  padding-top: 34px;
+  padding-bottom: 34px;
+ }
+
+
+ .introduction .left-side button{
+  width: 151px;
+  height: 58px;
+  background-color: #333;
+  color: #fff;
+ }
+
+ .introduction .button-class a{
+  color: #000;
+  padding-left: 15px;
+  text-decoration:none;
+ }
+
+ .introduction .button-class{
+  display: flex;
+  align-items: center;
+ }
+
+
+
+
+ @media(max-width:1427px) and (min-width:836px){
+
+   .introduction .left-side{
+    flex-basis: 100%;
+    align-items: center;
+
+   }
+
+ .introduction .right-side{
+  margin: 0 auto;
+ }
+
+
+ }
+
+
+ @media(max-width:768px) {
+  .introduction .left-side{
+    min-width: 500px;
+  }
+ 
+  .introduction .left-side h1{
+    font-size: 48px;
+    text-align: center;
+  }
+
+ .introduction .left-side p{
+  text-align: center;
+ }
+
+.introduction .button-class{
+  margin: 20px auto;
+
+}
+
+  .introduction{
+    padding-left: 30px;
+  }
+
+  .introduction .right-side{
+    margin: 0 auto;
+  }
+
+ }
+
+
+ /* introduction code END */
