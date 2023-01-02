@@ -52,15 +52,20 @@ nav a:hover{
   .fa-bars{
     font-size: 30px;
     display: flex;
+    cursor: pointer;
   }
 
 }
 
 /* Header code end */
+/* Header code end */
 
 
 
 
+
+
+/* introduction  code start*/
 /* introduction  code start*/
 
 
@@ -166,3 +171,44 @@ nav a:hover{
 
 
  /* introduction code END */
+ /* introduction code END */
+
+
+
+
+
+ /* Trusted-by-section code Start */
+
+
+.trusted-by-section{
+  padding-top: 77px;
+}
+
+
+
+.trusted-by-section h5{
+  text-align: center;
+ font-size: 1.2rem;
+ }
+
+
+ .partner-section{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 35px;
+ }
+
+
+  @media(max-width:768px){
+  
+    .partner-company:nth-child(even){
+      display: none;
+    }
+  }
+
+
+  @media(max-width:576px){
+    .partner-company:not(:first-child){
+      display: none;
+    }
+  }
