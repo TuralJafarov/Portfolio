@@ -177,7 +177,13 @@ nav a:hover{
 
 
 
+
+
+
+ 
  /* Trusted-by-section code Start */
+ /* Trusted-by-section code Start */
+
 
 
 .trusted-by-section{
@@ -212,3 +218,85 @@ nav a:hover{
       display: none;
     }
   }
+
+  /* Trusted-by-section code End */
+  /* Trusted-by-section code End */
+
+
+
+
+
+
+
+
+
+  /* Services-section code Start */
+  /* Services-section code Start */
+
+
+  .services-section{
+    padding-top: 80px;
+  }
+  
+  
+  .services-section h6 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color:#ff5e69;
+    text-transform: uppercase;
+    padding-top: 40px;
+  
+  }
+  
+  
+  .services-section h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  
+  
+  
+  .services-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 100px;
+  }
+  
+  .service-card {
+    width: 252px;
+    min-width: 252px;
+  }
+  
+  
+  .service-card h2{
+    font-weight: 700;
+    padding: 30px 0;
+  }
+  
+  .service-card p{
+    opacity: .6;
+   padding-top: 15px;
+   padding-bottom: 15px;
+  }
+  
+  .service-card li{
+    list-style-position: inside;
+  }
+  
+  
+  @media(max-width:576px){
+  
+  .services-section h1{
+    font-size: 30px;
+  }
+
+  }
+
+
+
+  /* Servies-section code End */
+  /* Servies-section code End */
